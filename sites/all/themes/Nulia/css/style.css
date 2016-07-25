@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'FranklinGothic-Book';
+  src: url('../fonts/FranklinGothic-Book.woff') format('woff'),
+       url('../fonts/FranklinGothic-Book.ttf') format('truetype'),
+       url('../fonts/FranklinGothic-Book.svg#FranklinGothic-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'franklin-gothic-book';
+  src: url('../fonts/franklin-gothic-book.eot');
+  src: url('../fonts/franklin-gothic-book.woff2') format('woff2'),
+       url('../fonts/franklin-gothic-book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../fonts/HelveticaLight.eot');
+    src: url('../fonts/HelveticaLight.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaLight.woff2') format('woff2'),
+         url('../fonts/HelveticaLight.woff') format('woff'),
+         url('../fonts/HelveticaLight.ttf') format('truetype'),
+         url('../fonts/HelveticaLight.svg#HelveticaLight') format('svg');
+}
+
+body{
+	font-family:"franklin-gothic-book",Helvetica,Arial,sans-serif;
+	color:#1d1d1d;
+	font-size:16px;
+}
+h3{
+	font-family:HelveticaLight, Arial, sans-serif;
+	color:#1d1d1d;
+}
+
+/*=================
+Top Header
+=================== */
+#top-header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#top-header ul li {
+	float:left;
+	display:inline-block;
+}
+#top-header ul li a{
+	color:#636363;
+}
+#top-header ul li a i{
+	margin-right:10px;
+}
+#top-header ul.site-info li{
+	padding-right:15px;
+}
+#top-header ul.user-access{
+	float:right;
+}
+#top-header ul.user-access li{
+	padding-left:15px;
+}
+h3.user-name{
+	font-size:30px;
+}
+.user-address{
+	color: #333333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.image-section{
+	background: #f1f1f1;
+    padding: 10px;
+	border-bottom:5px solid #ccc;
+}
+.image-section img{
+	width:100%;
+	height:auto;
+}
