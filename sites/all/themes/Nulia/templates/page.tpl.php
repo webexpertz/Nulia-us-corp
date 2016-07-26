@@ -189,6 +189,37 @@ global $base_url;
 
   </div>
 </div>
-<footer class="footer container">
-  <?php print render($page['footer']); ?>
+
+<!-- Contact section -->
+
+<div class="contact-section clearfix">
+	<?php print render($page['contact']); ?>
+</div>
+
+<!-- Footer section -->
+
+<div class="footer-section">
+	<div class="container">
+		<div class="row">
+			<div class="footer-section-first col-sm-3">
+				<?php print render($page['footer_first']); ?>
+			</div>
+			<div class="footer-section-second col-sm-3">
+				<?php print render($page['footer_second']); ?>
+			</div>
+			<div class="footer-section-third col-sm-3">
+				<?php print render($page['footer_third']); ?>
+			</div>
+			<div class="footer-section-forth col-sm-3">
+				<?php print render($page['footer_forth']); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="container">
+		<?php print render($page['footer']); ?>
+  </div>
 </footer>
